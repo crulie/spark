@@ -300,7 +300,6 @@ base_fonts:
     - ttf-ubuntu-font-family
 
 aur_fonts:
-    - ttf-bitstream-charter
     - ttf-cooper-hewitt
     - ttf-courier-prime
     - ttf-heuristica

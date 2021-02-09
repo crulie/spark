@@ -45,6 +45,9 @@
   tags:
     - libinput
 
+- name: Set X11 Keymap
+  command: localectl set-x11-keymap se
+
 - include: sxhkd.yml
 - include: unclutter.yml
 - include: autorandr.yml

@@ -53,5 +53,5 @@
 - include: autorandr.yml
 - include: srandrd.yml
 - include: termite.yml
-- include: autocutsel.yml
+- include: clipmenu.yml
 - include: xdg.yml

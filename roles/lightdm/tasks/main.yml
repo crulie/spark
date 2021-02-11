@@ -31,7 +31,7 @@
   lineinfile: dest=/etc/lightdm/lightdm-gtk-greeter.conf
               regexp="^xft-dpi="
               state=present
-              line="xft-dpi=192"
+              line="xft-dpi="216"
 
 - name: Force LightDM greeter theme
   lineinfile: dest=/usr/share/xgreeters/lightdm-gtk-greeter.desktop

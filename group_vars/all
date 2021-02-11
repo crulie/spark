@@ -31,6 +31,7 @@ aur:
         - myrepos
         - ctmg
         - spiped
+        - rofi-dmenu
 
 ssh:
     port: 22
@@ -293,6 +294,7 @@ base_fonts:
     - ttf-dejavu
     - ttf-droid
     - ttf-fira-mono
+    - ttf-hack
     - ttf-ibm-plex
     - ttf-inconsolata
     - ttf-liberation

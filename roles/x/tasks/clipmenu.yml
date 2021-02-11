@@ -1,0 +1,5 @@
+---
+- name: Install clipmenu
+  pacman: name=clipmenu state=present
+  tags:
+    - clipmenu

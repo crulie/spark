@@ -1,0 +1,5 @@
+---
+- name: Install picom
+  pacman: name=picom state=present
+  tags:
+    - picom

@@ -21,3 +21,4 @@
               insertbefore=BOF
 
 - include: rofi.yml
+- include: picom.yml

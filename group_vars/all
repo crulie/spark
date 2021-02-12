@@ -17,8 +17,8 @@ interception:
         delay: 20000
 
 dotfiles:
-    url: git@github.com:pigmonkey/dotfiles.git
-    destination: projects/dotfiles
+    url: git@github.com:crulie/dot.git
+    destination: .dotfiles
     rcup_flags: -fx README.md
 
 aur:

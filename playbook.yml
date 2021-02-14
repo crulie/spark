@@ -38,6 +38,7 @@
    # - { role: spell, tags: ['spell'] }
     - { role: browsers, tags: ['browsers'] }
     - { role: yubikey, tags: ['yubikey'] }
+    - { role: virt-manager, tags: ['virt-manager'] }
     - { role: media, tags: ['media'] }
     - { role: mpd, tags: ['mpd'] }
     - { role: mpv, tags: ['mpv'] }

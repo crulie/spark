@@ -1,0 +1,12 @@
+---
+- name: Install pass
+  pacman:
+    name: virt-manager
+    state: present
+
+- name: Enable and start libvirtd
+  service:
+    name: libvirtd.service
+    enabled: yes
+    state: started
+

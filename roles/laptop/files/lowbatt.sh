@@ -23,9 +23,9 @@ low() {
     message="Total capacity is at $capacity. We need more power, Scotty!"
     systemd-cat -t 'lowbatt' -p warning echo "$message"
     if [ -n "$NOTIFYUSER" ]; then
-        su "$NOTIFYUSER" -c "notify-send --urgency=critical \"Low Battery\" \"$message\""
+        su "$NOTIFYUSER" -c "notify-send-all --urgency=critical \"Low Battery\" \"$message\""
     else
-        notify-send --urgency=critical "Low Battery" "$message"
+        notify-send-all --urgency=critical "Low Battery" "$message"
     fi
     wall "Battery is low. $message"
 }

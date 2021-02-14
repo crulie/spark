@@ -19,6 +19,7 @@
     - { role: i3, tags: ['i3'], when: "desktop_environment == 'i3'" }
     - { role: gnome, tags: ['gnome'], when: "desktop_environment == 'gnome'" }
     - { role: pass, tags: ['pass'] }
+    - { role: keepass, tags: ['keepass'] }
    # - { role: iptables, tags: ['iptables'] }
     - { role: nettools, tags: ['nettools'] }
     - { role: nmtrust, tags: ['nmtrust'] }

@@ -1,0 +1,6 @@
+---
+- name: Install nextcloud-client
+  pacman:
+    name: nextcloud-client
+    state: present
+

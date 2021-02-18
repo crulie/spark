@@ -27,3 +27,4 @@
 
 - include: rofi.yml
 - include: picom.yml
+- include: polybar.yml

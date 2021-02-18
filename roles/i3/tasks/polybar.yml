@@ -1,0 +1,20 @@
+---
+- name: Install polybar
+  aur:
+    name:
+      - polybar
+    user: "{{ user.name }}"
+
+- name: Install python-pywal
+  pacman: name=python-pywal state=present
+
+- name: Install calc
+  pacman: name=calc state=present
+
+- name: Install networkmanager-dmenu
+  aur:
+    name:
+      - networkmanager-dmenu-git
+    user: "{{ user.name }}"
+
+

@@ -43,9 +43,9 @@ gnupg:
     emulate_ssh: True
 
 mail:
-    sync_tool: isync
-    sync_pim: True
-    sync_taskwarrior: True
+    sync_tool: offlineimap
+    sync_pim: False
+    sync_taskwarrior: False
     sync_notmuch: False
     sync_time: 5min
     sync_boot_delay: 2min
@@ -56,7 +56,7 @@ network:
     conn_check:
         interval: 0
     trusted_uuid:
-        - 38bfbfbf-3304-37bb-a866-c686fad5df76
+        - 4afa27b7-c420-4792-9745-09a494183d67
        
 editors:
     - gvim

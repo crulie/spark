@@ -1,0 +1,22 @@
+---
+- name: Install icaclient
+  aur:
+    name: icaclient 
+    user: {{ user.name }}
+
+- name: Verify mimeapps.list exists
+  file:
+    path: /etc/xdg/mimeapps.list
+    state: touch
+  tags:
+    - icaclient
+
+- name: Set icaclient as default application for relevant mimetypes
+  lineinfile:
+    dest: /etc/xdg/mimeapps.list
+    regexp: "{{ item.regexp }}"
+    line: "{{ item.line }}"
+  with_items:
+    - { regexp: '^application/x-ica=', line: 'application/x-ica=wfica.desktop' }
+  tags:
+    - icaclient
